@@ -13,8 +13,8 @@ Phiên bản: 2026-04-01 · Tỷ giá: $1 USD = 25.000 VNĐ
 6. [S&M — Marketing & Sales](#6-sm--marketing--sales)
 7. [Cashflow 12 tháng](#7-cashflow-12-tháng)
 8. [Breakeven & NOI ổn định](#8-breakeven--noi-ổn-định)
-9. [Phân tích 3 phương thức phát triển](#9-phân-tích-3-phương-thức-phát-triển)
-10. [Payback & ROI](#10-payback--roi)
+9. [Payback & ROI](#9-payback--roi)
+10. [Định giá BĐS theo Cap Rate](#10-định-giá-bđs-theo-cap-rate)
 
 ---
 
@@ -273,6 +273,118 @@ Giong Tự mở:
 
 ---
 
+## 10. Định giá BĐS theo Cap Rate
+
+### Khái niệm
+
+**Cap Rate (Capitalization Rate — Tỷ suất vốn hóa)** là chỉ số quan trọng nhất trong đầu tư bất động sản thương mại, phản ánh tỷ lệ giữa thu nhập ròng hàng năm (NOI) và giá trị thị trường của tài sản.
+
+- Cap Rate **thấp** (4–6%) → tài sản được định giá **cao**, thường là BĐS hạng A ở vị trí đắc địa, dòng tiền ổn định.
+- Cap Rate **cao** (8–12%) → tài sản được định giá **thấp hơn**, rủi ro cao hơn hoặc vị trí kém hấp dẫn.
+
+### Công thức
+
+```text
+┌──────────────────────────────────────────────────────────────────┐
+│                                                                  │
+│  Cap Rate = (NOI hàng năm / Giá trị BĐS hiện tại) × 100%       │
+│                                                                  │
+│  ⟹  Giá trị BĐS = NOI hàng năm / Cap Rate                     │
+│                                                                  │
+│  Trong đó:                                                       │
+│    NOI = Net Operating Income = DT Gross − Chi phí vận hành      │
+│        (không bao gồm khấu hao, lãi vay, thuế TNDN)            │
+│    Cap Rate = Tỷ suất vốn hóa kỳ vọng của nhà đầu tư           │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+### Benchmark Cap Rate tham chiếu (Việt Nam 2024–2025)
+
+| Loại BĐS | Cap Rate | Ghi chú |
+|-----------|----------|---------|
+| VP hạng A CBD (Q1/Q3 HCM) | 5,0 – 6,5% | Tenant ổn định, premium location |
+| VP hạng B-C nội thành | 6,5 – 8,0% | Cạnh tranh cao, vacancy biến động |
+| Retail / Thương mại | 7,0 – 9,0% | Phụ thuộc foot traffic |
+| Coworking / Serviced Office | 7,0 – 9,0% | Rủi ro vận hành, upside cao |
+| **Giong Hub (tham chiếu)** | **5,5 – 7,0%** | **Multi-stream, HĐ dài hạn, brand premium** |
+
+> *Giong Hub được định giá ở mức Cap Rate 5,5–7,0% nhờ: (1) đa dạng nguồn thu (8 nguồn diện tích + add-on), (2) HĐ thuê dài hạn 3–5 năm, (3) hệ sinh thái 84+ dịch vụ giảm rủi ro vacancy.*
+
+### Áp dụng cho 3.000m² — Góc nhìn Chủ mặt bằng
+
+Dữ liệu từ bảng "Giá trị cho Chủ nhà" (1 location 3.000m²):
+
+```text
+Kịch bản A — CĐT cho thuê VP thông thường (75% CS):
+  Rent thu về        = 843 tr/th (≈ $15/m² thực nhận tại 75% CS)
+  OPEX CĐT tự quản  = −150 tr/th
+  NOI CĐT           = 693 tr/th = 8,32 tỷ/năm
+
+  Định giá BĐS:
+    Cap 5,5%: 8,32 / 0,055 = 151 tỷ
+    Cap 7,0%: 8,32 / 0,070 = 119 tỷ
+    Cap 8,0%: 8,32 / 0,080 = 104 tỷ
+
+Kịch bản B — Cho Giong Space thuê nguyên block:
+  Rent thu về        = 1.500 tr/th (100% block, $20/m²)
+  OPEX CĐT          = −50 tr/th (Giong tự VH → CĐT chỉ dịch vụ tòa nhà)
+  NOI CĐT           = 1.450 tr/th = 17,4 tỷ/năm
+
+  Định giá BĐS:
+    Cap 5,5%: 17,4 / 0,055 = 316 tỷ
+    Cap 7,0%: 17,4 / 0,070 = 249 tỷ
+    Cap 8,0%: 17,4 / 0,080 = 218 tỷ
+
+  So với Kịch bản A:
+    Tăng NOI: +109% (1.450 vs 693)
+    Tăng định giá: ~2,1× (bất kể Cap Rate)
+
+Kịch bản C — CĐT + Franchise (Chủ nhà = Franchisee):
+  DT Gross Hub       = 2.757 tr/th (Baseline, CS 88%)
+  Chi phí VH         = −557 tr/th (OPEX 188 + Sys 138 + Roy 193 + markup 38)
+  NOI CĐT           = 2.200 tr/th = 26,4 tỷ/năm
+
+  Định giá BĐS:
+    Cap 5,5%: 26,4 / 0,055 = 480 tỷ
+    Cap 7,0%: 26,4 / 0,070 = 377 tỷ
+    Cap 8,0%: 26,4 / 0,080 = 330 tỷ
+
+  So với Kịch bản A:
+    Tăng NOI: +217% (2.200 vs 693)
+    Tăng định giá: ~3,2× (bất kể Cap Rate)
+```
+
+### Bảng tổng hợp định giá
+
+| Kịch bản | NOI/năm | Cap 5,5% | Cap 7% | Cap 8% | vs Cho thuê TT |
+|----------|---------|----------|--------|--------|----------------|
+| **A. Cho thuê thông thường** | 8,32 tỷ | 151 tỷ | 119 tỷ | 104 tỷ | — |
+| **B. Giong thuê block** | 17,4 tỷ | 316 tỷ | 249 tỷ | 218 tỷ | **~2,1×** |
+| **C. CĐT + Franchise** | 26,4 tỷ | 480 tỷ | 377 tỷ | 330 tỷ | **~3,2×** |
+
+### Phân tích ý nghĩa
+
+```text
+Nhận xét quan trọng:
+  ① Hệ số tăng định giá (~2,1× hoặc ~3,2×) KHÔNG thay đổi theo Cap Rate
+     → vì cả tử và mẫu đều chia cho cùng Cap Rate
+     → Tăng định giá = NOI_mới / NOI_cũ (chỉ phụ thuộc vào hiệu suất vận hành)
+
+  ② CĐT không cần bỏ thêm vốn trong Kịch bản B (Giong đầu tư fit-out)
+     → NOI tăng gấp đôi, giá trị BĐS tăng gấp đôi — "miễn phí"
+
+  ③ Kịch bản C yêu cầu CapEx 14,56 tỷ (fit-out + buffer + IFF)
+     → Nhưng payback ~7 tháng (NOI 2.200 tr/th)
+     → Sau payback, toàn bộ NOI là lợi nhuận ròng + BĐS tăng giá ~3,2×
+
+  ④ Rủi ro: Cap Rate thực tế phụ thuộc thị trường, vị trí, chất lượng tòa nhà
+     → Định giá cao nhất khi: HĐ thuê dài hạn, tenant đa dạng, NOI ổn định
+     → Giong Hub đáp ứng cả 3 tiêu chí → Cap Rate thấp = Định giá cao
+```
+
+---
+
 ## BẢNG TRA CỨU NHANH
 
 ```text
@@ -296,9 +408,14 @@ Giá seat:
   Private Office  : 3,2 tr/seat
   Coworking       : 3,6 tr/seat
   Dedicated Desk  : 4,8 tr/seat
+
+Định giá BĐS (Cap Rate 5,5%):
+  A. Cho thuê TT  : NOI 8,32 tỷ/y → 151 tỷ
+  B. Giong thuê   : NOI 17,4 tỷ/y → 316 tỷ (~2,1×)
+  C. CĐT+Franchise: NOI 26,4 tỷ/y → 480 tỷ (~3,2×)
 ```
 
 ---
 
 *Tài liệu này là nguồn tham chiếu chuẩn xác nhất cho toàn bộ hệ thống tính toán tài chính của dự án Giong Space 3.000m².*  
-*Cập nhật: 2026-04-01*
+*Cập nhật: 2026-04-02*
