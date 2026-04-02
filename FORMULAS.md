@@ -62,7 +62,7 @@ OPEX Location/th = $2,5/m² × 3.000m² × 25.000 = 187.500.000 ≈ 188 tr/th
 | Thuê setup 3th | **4,50 tỷ** | **4,50 tỷ** | ~~0~~ (chủ MB) |
 | Buffer OPEX 3th | 0,56 tỷ | 0,56 tỷ | 0,56 tỷ |
 | **S&M năm đầu** | **~1,50 tỷ** | **~1,50 tỷ** | **~1,50 tỷ** |
-| **TỔNG** | **~23,56 tỷ** | **~23,06 tỷ** | **~14,68 tỷ** |
+| **TỔNG** | **~23,56 tỷ** | **~23,06 tỷ** | **~14,56 tỷ** |
 
 ---
 
@@ -80,11 +80,13 @@ OPEX Location/th = $2,5/m² × 3.000m² × 25.000 = 187.500.000 ≈ 188 tr/th
 │ COWORKING TEAM (CW, nhóm ≥5)                                        │
 │   Diện tích CW = 300m² (trong Common 1.500m²)                      │
 │   Số ghế = 300m² ÷ 5m²/seat × 1,6 (hệ số) = 96 seats             │
-│   DT = 96 × 85% occ × 3.600.000 = 81,6 × 3,6 tr ≈ 295 tr        │
+│   DT = 96 × 85% occ = 81,6 seats (làm tròn 82 seats)            │
+│       = 82 × 3.600.000 VNĐ = 295,2 tr ≈ 295 tr                    │
 ├─────────────────────────────────────────────────────────────────────┤
 │ DEDICATED DESK (DD, cá nhân)                                         │
 │   Số ghế = 37 seats (trong Common)                                  │
-│   DT = 37 × 88% occ × 4.800.000 = 32,56 × 4,8 tr ≈ 154 tr        │
+│   DT = 37 × 88% occ = 32,56 seats (làm tròn 32 seats)           │
+│       = 32 × 4.800.000 VNĐ = 153,6 tr ≈ 154 tr                    │
 ├─────────────────────────────────────────────────────────────────────┤
 │ MEETING ROOM                                                         │
 │   Số phòng = 8 phòng (trong Common 1.500m²)                        │
@@ -242,9 +244,10 @@ Trong đó:
 | **OPEX Sys (5%)** | -138 tr | 0 |
 | **Royalty (7%)** | -193 tr | 0 |
 | **TỔNG COST** | -2.019 tr | -1.688 tr |
+| **S&M Tương quan** | - | -131 tr |
 | **NOI** | **738 tr** (8,86 tỷ/y) | **1.365 tr** (16,4 tỷ/y) |
 
-> *Ghi chú: Đối với Giong tự mở, NOI hiển thị trên P&L được điều chỉnh ước lượng (1.365 tr) do khoản cấu trúc phân tách các chi phí S&M tương quan.*
+> *Ghi chú: Đối với Giong tự mở, NOI hiển thị trên P&L (1.365 tr) đã được trừ đi chi phí S&M tương quan (131 tr). Baseline NOI (738 tr) được tính chuẩn không bao gồm S&M vận hành.*
 
 ---
 
@@ -287,7 +290,7 @@ Tổng thông số cốt lõi:
 Vốn đầu tư ban đầu:
   Baseline       = ~23,56 tỷ
   Giong tự mở   = ~23,06 tỷ
-  NĐT+Franchise  = ~14,68 tỷ
+  NĐT+Franchise  = ~14,56 tỷ
   
 Giá seat:
   Private Office  : 3,2 tr/seat
